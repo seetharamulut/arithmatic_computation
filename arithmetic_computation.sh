@@ -9,3 +9,4 @@ array[b]=$(( $num1*$num2+$num3 ))
 array[c]=$(( $num3+$num1/$num2 ))
 array[d]=$(( $num1%$num2+$num3 ))
 
+result=( ${array[a]} ${array[b]} ${array[c]} ${array[d]} )
