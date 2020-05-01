@@ -10,3 +10,10 @@ array[c]=$(( $num3+$num1/$num2 ))
 array[d]=$(( $num1%$num2+$num3 ))
 
 result=( ${array[a]} ${array[b]} ${array[c]} ${array[d]} )
+
+echo "computation result in descending order"
+for number in ${result[@]}
+do
+ echo $number
+done | sort -nr
+
