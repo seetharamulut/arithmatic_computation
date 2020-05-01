@@ -16,4 +16,9 @@ for number in ${result[@]}
 do
  echo $number
 done | sort -nr
+echo "computation result in ascending order"
+for number in ${result[@]}
+do
+ echo $number
+done | sort -n
 
