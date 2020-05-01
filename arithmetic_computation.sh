@@ -5,3 +5,4 @@ read -p " enter third number" num3
 
  $(( $num1+$num2*$num3 ))
  $(( $num1*$num2+$num3 ))
+ $(( $num3+$num1/$num2 ))
